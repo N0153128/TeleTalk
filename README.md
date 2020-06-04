@@ -4,6 +4,8 @@ BEFORE RUNNING:
 
 Download all dependencies with python3.7 -m pip install -r requirements.txt
 
+Run Telegram, create a bot with @BotFather, copy API key and replace "TOKEN" value of self.token with it
+
 Run bot with python3.7 controller.py
 
 If you see Tensorflow.contrib error - try running python3.7 -m pip uninstall tensorflow and then python3.7 -m pip install tensorflow=1.14
